@@ -1,0 +1,112 @@
+@font-face {
+    font-family:'jedi';
+    src: url(Starjedi.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+/*CABECALHO INICIAL*/
+#cabecalho {
+    background-color: #6C5BF0;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.span {
+    background-color: rgba(255, 255, 255, 0.699);
+    border-radius: 8%;
+    border: 1px groove black;
+    
+}
+
+a {
+    color: rgb(25, 27, 29);
+    
+}
+
+#home .home a,
+#hobbie .hobbie a,
+#contato .contato a {
+    background-position: right bottom;
+    background-color:  rgba(219, 219, 199, 0.733);
+    color: rgb(0, 0, 0);
+   
+}
+
+a:active {
+    color: rgb(223, 74, 74);
+    
+}
+
+a:hover {
+    background-color: rgba(219, 219, 199, 0.733);
+}
+
+li, a {
+    display: inline;
+    padding: 5px;
+    text-decoration: none;
+    
+}
+
+h1 {
+    padding: 30px;
+    font-family: 'jedi', Times, serif;
+    font-size: 3em;
+}
+/*FIM CABECALHO*/
+
+
+/*CORPO SITE*/
+
+body {
+    width: 100%;
+    background-color: #8294D9 ;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    font-size: 1.7em;
+    
+}
+
+
+.img {
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+.corpo {
+    display: block;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 1.2em;
+    font-style: italic;
+    background-color: #6EA684;
+    border: 1px solid black;
+    box-shadow: 7px 8px 7px 1px 
+}
+
+h3 {
+    text-align: center;
+}
+
+.h3-contato {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.0em;
+}
+
+/*FIM CORPO SITE/*
