@@ -35,16 +35,21 @@ a {
     background-position: right bottom;
     background-color:  rgba(219, 219, 199, 0.733);
     color: rgb(0, 0, 0);
+    
    
 }
 
 a:active {
-    color: rgb(223, 74, 74);
+    color: rgb(216, 44, 44);
     
 }
 
 a:hover {
-    background-color: rgba(219, 219, 199, 0.733);
+    color: rgb(226, 219, 219);
+}
+
+a:hover {
+    background-color: rgba(223, 223, 211, 0.733);
 }
 
 li, a {
@@ -108,5 +113,15 @@ h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.0em;
 }
+
+.corpo, a:hover {
+    background: none;
+
+}
+
+
+    
+    
+
 
 /*FIM CORPO SITE/*
