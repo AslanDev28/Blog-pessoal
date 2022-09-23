@@ -4,9 +4,13 @@
     font-weight: normal;
     font-style: normal;
 }
+
+
+
 * {
     padding: 0;
     margin: 0;
+    
 }
 /*CABECALHO INICIAL*/
 #cabecalho {
@@ -15,6 +19,7 @@
     padding: 20px;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
+    font-size: 1.1em;
 }
 
 .span {
@@ -25,7 +30,9 @@
 }
 
 a {
-    color: rgb(25, 27, 29);
+    color: rgb(13, 13, 14);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
     
 }
 
@@ -70,53 +77,147 @@ h1 {
 /*CORPO SITE*/
 
 body {
+    height: 100%;
     width: 100%;
     background-color: #8294D9 ;
 }
 
-h2 {
+.h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-top: 15px;
-    padding-bottom: 25px;
-    font-size: 1.7em;
+    font-size: 1.5em;
+    
     
 }
 
 
-.img {
-    text-align: center;
-    padding-bottom: 20px;
+
+#img-cont {
+    display: flex;
+    justify-content:space-evenly;
+    
+    
+}
+    
+
+    
+
+.img-p {
+    width: 275px;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-top: 100px;
+    margin-left: 200px;
+
+}
+
+/*PAGINA HOBBIES*/
+.p1 {
+    margin-top: 75px;
+   
+}
+
+.p2 {
+    margin-top: 100px;
+}
+
+.fleximg {
+    display: flex;
+    flex-direction: column;
+    
     
 }
 
-.corpo {
-    display: block;
-    text-align: center;
-    padding: 50px;
+.brain {
+    margin-bottom: 600px;
+}
+
+.brain2 {
+    margin-top: 575px;
+}
+
+.fleximg, img img {
+    padding-bottom: 200px; 
+    margin-left: 150px;
+    margin-top: -720px;
     
 }
+
+
 
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   font-size: 1.2em;
+    font-size: 1.2em;
     font-style: italic;
     background-color: #6EA684;
     border: 1px solid black;
-    box-shadow: 7px 8px 7px 1px 
+    border-radius: 10px;
+    box-shadow: 7px 8px 7px 1px ;
+    width: 645px;
+    margin-left: 655px;
+    margin-top: -310px;
+    padding: 15px;
+}
+/*CONTATO*/
+
+.h3-contato {
+    text-align: center;
+    margin-top:30px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*RODAPE*/
+
+
+.rodape1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 25px;
+    background-color: rgba(177, 177, 177, 0.767);
 }
 
-h3 {
+
+.rodape2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 25px;
+    background-color: rgba(177, 177, 177, 0.767);
+}
+
+.rodape3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.0em;
+    margin-top: 35px;
+    text-align: center;
+    background-color: rgba(177, 177, 177, 0.767);
+}
+
+
+.contato1 {
     text-align: center;
 }
 
-.h3-contato {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.0em;
+.contato2 {
+    text-align: center;
+}
+
+.contato3 {
+    text-align: center;
 }
 
 .corpo, a:hover {
     background: none;
 
+}
+
+.social {
+    background-color: #242222;
+    margin-left: 665px;
+    margin-right: 500px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    width: 200px;
+    border-radius: 10px;
 }
 
 
